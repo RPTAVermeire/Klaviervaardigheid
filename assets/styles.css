@@ -229,7 +229,8 @@ summary{cursor:pointer;font-weight:800}
   .container{max-width:none;padding:0}
   .diploma{box-shadow:none;border-color:#174a8b;page-break-inside:avoid}
 }
-.marked-text{white-space:pre-wrap;overflow-wrap:anywhere;line-height:1.9}
+.marked-text{max-width:100%;white-space:pre-wrap;overflow-wrap:normal;word-break:normal;line-height:1.9}
+.whole-word{white-space:nowrap}
 .typed-ok{background:#d7f5de;color:#123d20;border-radius:3px}
 .typed-error{background:#ffe0de;color:#8c1712;text-decoration:underline wavy #bd211a;text-decoration-thickness:2px;border-radius:3px}
 .typed-next{border-bottom:3px solid #164c8d}
