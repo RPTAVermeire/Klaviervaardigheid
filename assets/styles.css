@@ -310,8 +310,11 @@ h1,h2,h3{letter-spacing:-.035em;line-height:1.18}h1{font-size:clamp(2rem,3.4vw,3
 .top-actions #signedInName{font-family:inherit;font-size:1rem;color:var(--text);font-weight:400;white-space:nowrap}
 .attempt-row summary{font-family:inherit;font-size:1rem;font-weight:400;color:var(--text)}
 .context{justify-content:flex-start}
-.test-settings{display:grid;grid-template-columns:minmax(180px,1fr) minmax(180px,1fr);gap:18px;align-items:end;margin-bottom:16px}
+.test-settings{display:grid;grid-template-columns:minmax(180px,1fr) minmax(220px,1.25fr);gap:18px;align-items:end;margin-bottom:10px}
 .test-settings label{margin:0}
+.test-settings .read-aloud-toggle{display:flex;align-items:center;gap:10px;min-height:47px;padding:0 14px;border:1px solid var(--line);border-radius:8px;background:#f7fbfa;font-weight:700;cursor:pointer}
+.test-settings .read-aloud-toggle input{width:21px;height:21px;margin:0;flex:0 0 auto}
+.read-aloud-note{margin-top:0;margin-bottom:14px}
 @media(max-width:900px){.header-inner{align-items:flex-start;flex-wrap:wrap}.header-left{width:100%;gap:18px}.top-actions{width:100%;justify-content:flex-end}.molenland-wordmark{display:none}}
 @media(max-width:640px){.header-left{align-items:flex-start;flex-wrap:wrap}.header-left .nav{width:100%}.top-actions{justify-content:flex-start}.top-actions #signedInName{white-space:normal}.test-settings{grid-template-columns:1fr}}
 @media(prefers-reduced-motion:reduce){.role-choice,.btn{transition:none}}
